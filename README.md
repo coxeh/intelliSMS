@@ -115,6 +115,17 @@ Options available are:
 * **from** - This is the source/sender's phone number or name. Optional
 * **usercontext** - a string that is sent along when a user replys to a text message. [Click here for more info on reply callbacks][intelliforward]
 
+###  Send a Voice message
+
+    sms.SendVoiceMessage(options,callback);
+
+Options available are:
+
+* **to** - an array or string of recipient numbers. Required
+* **text** - the message you want to send. Required
+* **from** - This is the source/sender's phone number or name. Optional
+* **maxconcat** -  Maximum number of concatenated SMS messages that will be sent per recipient. Leave blank to auto calculate length. Optional
+
 ### Send MMS Message
 
     sms.SendMMSMessage(options,files,callback);

@@ -89,6 +89,10 @@ IntelliSMS.prototype.SendMessageWithUserContext = function(options,cb){
 	if(!options.usercontext) throw new Error('Enter user content');
 	return this.SendMessage(options,cb);
 };
+IntelliSMS.prototype.SendVoiceMessage = function(options,cb){
+	var sendOptions = _.extend({type : 6},options);
+	return this.SendMessage(options,cb);
+};
 
 
 IntelliSMS.prototype.SendMMSMessage = function(options,filepaths,cb){
