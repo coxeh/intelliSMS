@@ -1,6 +1,6 @@
 {
 	"name":"intellisms",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "Carl Glaysher <carl@eccemedia.com>",
 	"description": "intelliSMS is a node.js module to connect to the Intellisoftware SMS Gateway API",
 	"main": "./intelliSMS.js",

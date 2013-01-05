@@ -268,7 +268,7 @@ IntelliSMS.prototype.processRequest = function(endPoint,postData,cb){
 	.on('socket', function (socket) {
 		socket.setTimeout(self.options.timeout);  
 		socket.on('timeout', function() {
-			if(this.options.useHost<(this.options.host.length-1)){
+			if(self.options.useHost<(self.options.host.length-1)){
 				self.options.useHost++;
 				self.processRequest(endPoint,postData,cb);
 			}else{
