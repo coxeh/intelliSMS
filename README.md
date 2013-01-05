@@ -157,7 +157,7 @@ You can retrieve an MMS Message part. [more info here][intellimms]
     sms.RetrieveMMSPart(msgid,msgpart,cb);
 
 
-  [intelli]: http://http://www.intellisoftware.co.uk/
+  [intelli]: http://www.intellisoftware.co.uk/
   [phpsdk]: http://www.intellisoftware.co.uk/sms-gateway/php-sdk/
   [.netsdk]: http://www.intellisoftware.co.uk/sms-gateway/dotnet-component/
   [intelliforward]: http://www.intellisoftware.co.uk/sms-gateway/inbound-sms/
