@@ -1,0 +1,22 @@
+{
+	"name":"intellisms",
+	"version": "0.1.0",
+	"author": "Carl Glaysher <carl@eccemedia.com>",
+	"description": "intelliSMS is a node.js module to connect to the Intellisoftware SMS Gateway API",
+	"main": "./intelliSMS.js",
+	"keywords": [
+	    "sms",
+	    "textmessage",
+	    "server"
+	],
+	"repository": {
+		"type": "git",
+	    "url": "git://github.com/coxeh/intelliSMS.git"
+	},
+	"dependencies" : {
+		"form-data":">= 0.0.5",
+		"underscore":">= 1.4.3"
+	},
+	"readme": "intelliSMS is a node.js module to connect to the Intellisoftware SMS Gateway API",
+	"readmeFilename": "README.md"
+}
